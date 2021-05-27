@@ -2,7 +2,7 @@
 <plugin id="cordova-plugin-permissionapi29plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>PermissionAPI29Plugin</name>
     <js-module name="PermissionAPI29Plugin" src="www/PermissionAPI29Plugin.js">
-        <clobbers target="cordova.plugins.PermissionAPI29Plugin" />
+        <clobbers target="permissionapi29plugin" />
     </js-module>
     <platform name="android">
         <config-file target="AndroidManifest.xml" parent="/*">
