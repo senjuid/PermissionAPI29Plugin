@@ -5,7 +5,7 @@
         <clobbers target="permissionapi29plugin" />
     </js-module>
     <platform name="android">
-        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
             <application android:requestLegacyExternalStorage="true" />
         </edit-config>
         <config-file target="AndroidManifest.xml" parent="/*">
